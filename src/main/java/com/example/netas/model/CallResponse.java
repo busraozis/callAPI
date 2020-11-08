@@ -1,13 +1,7 @@
 package com.example.netas.model;
 
-public class CallResponse {
-    private String response;
+public interface CallResponse {
 
-    public String getResponse() {
-        return response;
-    }
+    public String getResponse();
 
-    public void setResponse(String response) {
-        this.response = response;
-    }
 }
